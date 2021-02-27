@@ -5,7 +5,7 @@ for sim in sims:
 	else:
 		print(sim.title())
 
-installed_sims=['X-Plane','P3D']
+#installed_sims=['X-Plane','P3D']
 
 installed_sim = 'X-Plane'
 if installed_sim != 'FSX':
@@ -43,11 +43,10 @@ for sim in sims:
 		print("FSX")
 
 
-simslist=['fsx','P3D','msfs','X-Plane']
-installed_sims=['P3D','X-Plane']
-
-for installedsim in installed_sims:
-	if installed_sims in simslist:
-		print("installed")
+installion=['auto','man','other']
+used_ins=['auto','other','force']
+for used_inst in used_ins:
+	if used_inst in installion:
+		print('install ')
 	else:
-		print("1")
+		print('install a ')
