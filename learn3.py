@@ -47,6 +47,6 @@ installion=['auto','man','other']
 used_ins=['auto','other','force']
 for used_inst in used_ins:
 	if used_inst in installion:
-		print('install ')
+		print('install')
 	else:
-		print('install a ')
+		print('install a')
