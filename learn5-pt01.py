@@ -20,12 +20,12 @@ b = 514
 b = str(b)
 
 
-def Aerodyanmics(lift, drag):
+def Aerodynamics(lift, drag):
     print("\nResult: " + lift + " " + drag + ".")
 
 
-Aerodyanmics(a, b)
-Aerodyanmics("1919N", "810N")
+Aerodynamics(a, b)
+Aerodynamics("1919N", "810N")
 
 
 def Car(color, type='tanker'):

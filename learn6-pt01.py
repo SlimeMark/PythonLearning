@@ -6,4 +6,4 @@ class Z46():
         self.types = types
     def attack(self):
 
-        print("Fire!")
+        print("ATK")
